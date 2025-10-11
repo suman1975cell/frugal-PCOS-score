@@ -5,7 +5,7 @@ import streamlit as st
 # ----------------------------
 st.set_page_config(page_title="Frugal PCOS Risk Score", page_icon="💠", layout="centered")
 
-st.title("💠 Frugal PCOS Risk Score (FrugalScore2)")
+st.title("💠 Frugal PCOS Risk Score")
 st.caption("Developed using validated clinical predictors of PCOS in South Asian women")
 
 st.markdown("""
@@ -62,7 +62,7 @@ st.markdown("""
 | Moderate/Severe Acne | +2 |
 
 **Total Score Range:** 0–4  
-**Optimal Cut-off:** ≥ 1.5 (Sensitivity = 0.62, Specificity = 0.83)
+**Optimal Cut-off:** ≥ 1.5 (Sensitivity = 0.73, Specificity = 0.45)
 
 Developed using logistic regression and validated with Kaggle PCOS dataset  
 (AUC = 0.784, 95% CI 0.69–0.87).
