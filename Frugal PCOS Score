@@ -37,7 +37,7 @@ if acne == "Yes":
     score += 2
 
 st.divider()
-st.metric(label="FrugalScore 2", value=score)
+st.metric(label="FrugalScore II", value=score)
 
 # ----------------------------
 # INTERPRETATION
